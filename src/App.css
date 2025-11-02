@@ -1,0 +1,372 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: white;
+  padding: 48px 40px;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark .app-header {
+  background: #2d2d2d;
+  border-bottom-color: #3d3d3d;
+}
+
+.header-content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.header-main {
+  flex: 1;
+}
+
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  transition: color 0.3s ease;
+}
+
+.header-subtitle {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  margin: 0 0 4px 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header-byline {
+  font-size: 0.95rem;
+  color: #95a5a6;
+  margin: 0;
+  font-style: italic;
+}
+
+.dark .header-title {
+  color: #e5e5e5;
+}
+
+.dark .header-subtitle {
+  color: #b0b0b0;
+}
+
+.dark .header-byline {
+  color: #9a9a9a;
+}
+
+.dark-mode-toggle {
+  background: transparent;
+  border: 2px solid #e9ecef;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  border-color: #2c3e50;
+  transform: scale(1.05);
+}
+
+.dark .dark-mode-toggle {
+  border-color: #3d3d3d;
+}
+
+.dark .dark-mode-toggle:hover {
+  border-color: #e5e5e5;
+}
+
+.app-header p {
+  display: block;
+  margin-top: 4px;
+}
+
+.search-input-header {
+  flex: 0 0 350px;
+  padding: 12px 16px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background: white;
+  color: #2c3e50;
+}
+
+.search-input-header:focus {
+  outline: none;
+  border-color: #ec4899;
+  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
+}
+
+.search-input-header::placeholder {
+  color: #95a5a6;
+}
+
+.filters-container {
+  background: white;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-group label {
+  color: #495057;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  background: white;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #ec4899;
+  box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .app-header p {
+    display: block !important;
+  }
+
+  .search-input-header {
+    width: 100%;
+    flex: 1;
+  }
+
+  .filters-container {
+    padding: 16px 24px;
+    gap: 12px;
+  }
+
+  .filter-group {
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+}
+
+.btn-primary {
+  background: #ec4899;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: -0.01em;
+}
+
+.btn-primary:hover {
+  background: #be185d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary-header {
+  background: transparent;
+  color: #2c3e50;
+  border: 1px solid #dee2e6;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: -0.01em;
+}
+
+.btn-secondary-header:hover:not(:disabled) {
+  background: #f8f9fa;
+  border-color: #adb5bd;
+  transform: translateY(-1px);
+}
+
+.btn-secondary-header:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.app-footer {
+  background: white;
+  border-top: 1px solid #e9ecef;
+  padding: 40px;
+  margin-top: 60px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark .app-footer {
+  background: #2d2d2d;
+  border-top-color: #3d3d3d;
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.footer-top h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-link:hover {
+  color: #ec4899;
+}
+
+.footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 4px 0;
+  color: #7f8c8d;
+  font-size: 0.85rem;
+}
+
+.footer-bottom a {
+  color: #ec4899;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #be185d;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 32px 24px;
+    margin-top: 60px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 32px 24px;
+  }
+
+  .header-content-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header-title {
+    font-size: 1.6rem;
+  }
+
+  .header-subtitle {
+    font-size: 1rem;
+  }
+
+  .app-header > div:last-child {
+    width: 100%;
+  }
+
+  .search-input-header {
+    flex: 1;
+  }
+}

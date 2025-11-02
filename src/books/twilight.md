@@ -1,0 +1,24 @@
+---
+title: 'Twilight'
+author: 'Stephenie Meyer'
+status: 'read'
+rating: 5
+date: '2024-02-05'
+cover: 'https://covers.openlibrary.org/b/isbn/9780316015844-L.jpg'
+tags:
+  - fantasy
+  - romance
+  - young-adult
+  - vampires
+---
+
+# Twilight
+
+by **Stephenie Meyer**
+
+The first book in the Twilight series.
+
+## Rating
+
+⭐⭐⭐⭐⭐
+

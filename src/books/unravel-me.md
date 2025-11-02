@@ -1,0 +1,24 @@
+---
+title: 'Unravel Me'
+author: 'Tahereh Mafi'
+status: 'read'
+rating: 5
+date: '2024-01-15'
+cover: 'https://covers.openlibrary.org/b/isbn/9780062085542-L.jpg'
+tags:
+  - fantasy
+  - romance
+  - young-adult
+  - dystopian
+---
+
+# Unravel Me
+
+by **Tahereh Mafi**
+
+The second book in the Shatter Me series.
+
+## Rating
+
+⭐⭐⭐⭐⭐
+

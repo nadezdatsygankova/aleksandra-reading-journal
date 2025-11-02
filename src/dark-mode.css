@@ -1,0 +1,206 @@
+/* Dark mode styles */
+
+.dark .book-card {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+}
+
+.dark .book-title {
+  color: #e5e5e5;
+}
+
+.dark .book-author {
+  color: #a0a0a0;
+}
+
+.dark .book-status {
+  color: #a0a0a0;
+}
+
+.dark .book-date {
+  color: #a0a0a0;
+}
+
+.dark .book-tag {
+  background: #3d3d3d;
+  color: #c0c0c0;
+}
+
+.dark .book-tag:hover {
+  background: #4d4d4d;
+  color: #e5e5e5;
+}
+
+.dark .book-review-preview p {
+  color: #c0c0c0;
+}
+
+.dark .filters-container {
+  background: #2d2d2d;
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .filter-select {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+  color: #e5e5e5;
+}
+
+.dark .filter-select:focus {
+  border-color: #f472b6;
+  box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.2);
+}
+
+.dark .filter-group label {
+  color: #c0c0c0;
+}
+
+.dark .search-input-header {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+  color: #e5e5e5;
+}
+
+.dark .search-input-header:focus {
+  border-color: #f472b6;
+  box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.2);
+}
+
+.dark .search-input-header::placeholder {
+  color: #6d6d6d;
+}
+
+.dark .section-title {
+  color: #e5e5e5;
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .empty-state {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+}
+
+.dark .empty-state p {
+  color: #a0a0a0;
+}
+
+.dark .book-list {
+  background: transparent;
+}
+
+.dark .modal-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.dark .modal-content {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+}
+
+.dark .modal-close,
+.dark .modal-share {
+  background: #3d3d3d;
+  color: #e5e5e5;
+}
+
+.dark .modal-close:hover,
+.dark .modal-share:hover {
+  background: #4d4d4d;
+}
+
+.dark .book-title-full {
+  color: #e5e5e5;
+}
+
+.dark .book-author-full {
+  color: #a0a0a0;
+}
+
+.dark .book-status-full {
+  color: #a0a0a0;
+}
+
+.dark .book-date-full {
+  color: #a0a0a0;
+}
+
+.dark .book-review-full p {
+  color: #c0c0c0;
+}
+
+.dark .book-review-full h1,
+.dark .book-review-full h2,
+.dark .book-review-full h3 {
+  color: #e5e5e5;
+}
+
+.dark .book-review-full li {
+  color: #c0c0c0;
+}
+
+.dark .book-header-full {
+  border-bottom-color: #3d3d3d;
+}
+
+.dark .book-recommendations {
+  border-top-color: #3d3d3d;
+}
+
+.dark .recommendations-title {
+  color: #e5e5e5;
+}
+
+.dark .recommendation-item {
+  background: #3d3d3d;
+  border-color: #4d4d4d;
+}
+
+.dark .recommendation-item:hover {
+  background: #4d4d4d;
+  border-color: #5d5d5d;
+}
+
+.dark .recommendation-info strong {
+  color: #e5e5e5;
+}
+
+.dark .recommendation-info span {
+  color: #a0a0a0;
+}
+
+.dark .footer-top h3 {
+  color: #e5e5e5;
+}
+
+.dark .footer-content p {
+  color: #a0a0a0;
+}
+
+.dark .stat-number {
+  color: #e5e5e5;
+}
+
+.dark .stat-label {
+  color: #a0a0a0;
+}
+
+.dark .footer-link {
+  color: #e5e5e5;
+}
+
+.dark .footer-link:hover {
+  color: #f472b6;
+}
+
+.dark .footer-bottom {
+  border-top-color: #3d3d3d;
+}
+
+.dark .footer-bottom a {
+  color: #f472b6;
+}
+
+.dark .footer-bottom a:hover {
+  color: #ec4899;
+}
+
