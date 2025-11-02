@@ -6,7 +6,7 @@
 }
 
 .dark .book-title {
-  color: #e5e5e5;
+  color: #ffb3ba;
 }
 
 .dark .book-author {
@@ -46,9 +46,15 @@
   color: #e5e5e5;
 }
 
+.dark .filter-select {
+  background: #2d2d2d;
+  border-color: #3d3d3d;
+  color: #e5e5e5;
+}
+
 .dark .filter-select:focus {
-  border-color: #f472b6;
-  box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.2);
+  border-color: #ffb3ba;
+  box-shadow: 0 0 0 3px rgba(255, 179, 186, 0.2);
 }
 
 .dark .filter-group label {
@@ -62,8 +68,8 @@
 }
 
 .dark .search-input-header:focus {
-  border-color: #f472b6;
-  box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.2);
+  border-color: #ffb3ba;
+  box-shadow: 0 0 0 3px rgba(255, 179, 186, 0.2);
 }
 
 .dark .search-input-header::placeholder {
@@ -71,8 +77,8 @@
 }
 
 .dark .section-title {
-  color: #e5e5e5;
-  border-bottom-color: #3d3d3d;
+  color: #ffb3ba;
+  border-bottom-color: rgba(255, 179, 186, 0.5);
 }
 
 .dark .empty-state {
@@ -99,17 +105,17 @@
 
 .dark .modal-close,
 .dark .modal-share {
-  background: #3d3d3d;
-  color: #e5e5e5;
+  background: #8C2B27;
+  color: white;
 }
 
 .dark .modal-close:hover,
 .dark .modal-share:hover {
-  background: #4d4d4d;
+  background: #6D211E;
 }
 
 .dark .book-title-full {
-  color: #e5e5e5;
+  color: #ffb3ba;
 }
 
 .dark .book-author-full {
@@ -131,7 +137,7 @@
 .dark .book-review-full h1,
 .dark .book-review-full h2,
 .dark .book-review-full h3 {
-  color: #e5e5e5;
+  color: #ffb3ba;
 }
 
 .dark .book-review-full li {
@@ -147,7 +153,7 @@
 }
 
 .dark .recommendations-title {
-  color: #e5e5e5;
+  color: #ffb3ba;
 }
 
 .dark .recommendation-item {
@@ -189,18 +195,18 @@
 }
 
 .dark .footer-link:hover {
-  color: #f472b6;
+  color: #ffb3ba;
 }
 
 .dark .footer-bottom {
-  border-top-color: #3d3d3d;
+  border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 .dark .footer-bottom a {
-  color: #f472b6;
+  color: white;
 }
 
 .dark .footer-bottom a:hover {
-  color: #ec4899;
+  color: #ffb3ba;
 }
 
