@@ -114,7 +114,7 @@ function BookDetail() {
           <div className="book-cover-large">
             <img src={getCoverUrl()} alt={book.title} />
           </div>
-          
+
           <div className="book-detail-content">
             <div className="book-status-detail">{getStatusText(book.status)}</div>
             <h1 className="book-title-detail">{book.title}</h1>

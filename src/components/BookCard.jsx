@@ -4,7 +4,6 @@ import './BookCard.css';
 function BookCard({ book }) {
   const navigate = useNavigate();
 
-
   const renderStars = (rating) => {
     if (!rating) return null;
     const stars = [];
