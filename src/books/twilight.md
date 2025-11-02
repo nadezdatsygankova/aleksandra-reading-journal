@@ -12,13 +12,5 @@ tags:
   - vampires
 ---
 
-# Twilight
-
-by **Stephenie Meyer**
-
 The first book in the Twilight series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

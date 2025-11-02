@@ -12,13 +12,5 @@ tags:
   - dystopian
 ---
 
-# Restore Me
-
-by **Tahereh Mafi**
-
 The fourth book in the Shatter Me series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

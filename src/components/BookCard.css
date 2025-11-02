@@ -3,7 +3,7 @@
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  border: 2px solid #8C2B27;
+  border: 2px solid #8c2b27;
   transition: all 0.3s ease;
   position: relative;
   cursor: pointer;
@@ -15,7 +15,7 @@
 .book-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(140, 43, 39, 0.2);
-  border-color: #6D211E;
+  border-color: #6d211e;
 }
 
 .book-cover {
@@ -58,7 +58,7 @@
 }
 
 .book-title {
-  color: #8C2B27;
+  color: #8c2b27;
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0 0 6px 0;
@@ -168,7 +168,7 @@
   overflow-y: auto;
   position: relative;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-  border: 3px solid #8C2B27;
+  border: 3px solid #8c2b27;
 }
 
 .modal-header-actions {
@@ -181,7 +181,7 @@
 
 .modal-close,
 .modal-share {
-  background: #8C2B27;
+  background: #8c2b27;
   border: none;
   width: 40px;
   height: 40px;
@@ -198,14 +198,14 @@
 
 .modal-close:hover,
 .modal-share:hover {
-  background: #6D211E;
+  background: #6d211e;
   transform: scale(1.1);
 }
 
 .book-header-full {
   margin-bottom: 32px;
   padding-bottom: 32px;
-  border-bottom: 2px solid #8C2B27;
+  border-bottom: 2px solid #8c2b27;
 }
 
 .book-info-full {
@@ -222,7 +222,7 @@
 }
 
 .book-title-full {
-  color: #8C2B27;
+  color: #8c2b27;
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0 0 12px 0;
@@ -231,7 +231,7 @@
 }
 
 .book-author-full {
-  color: #95a5a6;
+  color: #2b1c19;
   font-size: 1.2rem;
   margin-bottom: 16px;
   font-weight: 400;
@@ -264,7 +264,7 @@
 .book-review-full h4,
 .book-review-full h5,
 .book-review-full h6 {
-  color: #8C2B27;
+  color: #8c2b27;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
   font-weight: 700;
@@ -303,7 +303,7 @@
 }
 
 .book-review-full strong {
-  color: #2c3e50;
+  color: #8c2b27;
   font-weight: 700;
 }
 
@@ -322,13 +322,13 @@
 .book-recommendations {
   margin-top: 40px;
   padding-top: 32px;
-  border-top: 2px solid #8C2B27;
+  border-top: 2px solid #8c2b27;
 }
 
 .recommendations-title {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #8C2B27;
+  color: #8c2b27;
   margin-bottom: 16px;
   letter-spacing: -0.01em;
 }

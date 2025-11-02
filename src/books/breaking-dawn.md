@@ -12,13 +12,4 @@ tags:
   - vampires
 ---
 
-# Breaking Dawn
-
-by **Stephenie Meyer**
-
 The fourth and final book in the Twilight series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
-

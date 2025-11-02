@@ -12,12 +12,4 @@ tags:
   - crime
 ---
 
-# Good Girl, Bad Blood
-
-by **Holly Jackson**
-
 The second book in the A Good Girl's Guide to Murder series.
-
-## Rating
-
-⭐⭐⭐⭐⭐

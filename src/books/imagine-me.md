@@ -12,13 +12,5 @@ tags:
   - dystopian
 ---
 
-# Imagine Me
-
-by **Tahereh Mafi**
-
 The sixth book in the Shatter Me series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

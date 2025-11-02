@@ -12,13 +12,5 @@ tags:
   - dystopian
 ---
 
-# Unravel Me
-
-by **Tahereh Mafi**
-
 The second book in the Shatter Me series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

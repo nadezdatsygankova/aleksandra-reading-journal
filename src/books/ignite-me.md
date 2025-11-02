@@ -12,12 +12,4 @@ tags:
   - dystopian
 ---
 
-# Ignite Me
-
-by **Tahereh Mafi**
-
 The third book in the Shatter Me series.
-
-## Rating
-
-⭐⭐⭐⭐⭐

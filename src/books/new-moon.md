@@ -12,13 +12,5 @@ tags:
   - vampires
 ---
 
-# New Moon
-
-by **Stephenie Meyer**
-
 The second book in the Twilight series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

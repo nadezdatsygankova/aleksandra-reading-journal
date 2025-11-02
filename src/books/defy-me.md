@@ -12,13 +12,5 @@ tags:
   - dystopian
 ---
 
-# Defy Me
-
-by **Tahereh Mafi**
-
 The fifth book in the Shatter Me series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

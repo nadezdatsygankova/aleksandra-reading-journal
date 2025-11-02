@@ -12,13 +12,5 @@ tags:
   - vampires
 ---
 
-# Eclipse
-
-by **Stephenie Meyer**
-
 The third book in the Twilight series.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 

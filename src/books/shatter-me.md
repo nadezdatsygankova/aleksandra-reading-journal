@@ -12,13 +12,5 @@ tags:
   - dystopian
 ---
 
-# Shatter Me
-
-by **Tahereh Mafi**
-
 A captivating dystopian novel about a girl with a lethal touch.
-
-## Rating
-
-⭐⭐⭐⭐⭐
 
