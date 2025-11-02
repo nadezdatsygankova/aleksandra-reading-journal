@@ -35,15 +35,14 @@
   color: #c0c0c0;
 }
 
-.dark .filters-container {
-  background: #2d2d2d;
+.dark .intro-section {
+  background: #2d2525;
   border-bottom-color: #3d3d3d;
 }
 
-.dark .filter-select {
+.dark .filters-container {
   background: #2d2d2d;
-  border-color: #3d3d3d;
-  color: #e5e5e5;
+  border-bottom-color: #3d3d3d;
 }
 
 .dark .filter-select {

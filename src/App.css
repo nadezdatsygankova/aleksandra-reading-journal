@@ -7,7 +7,7 @@
 
 .app-header {
   background: #8C2B27;
-  padding: 48px 40px;
+  padding: 24px 40px;
   border-bottom: 1px solid #6D211E;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   position: sticky;
@@ -26,7 +26,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 24px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .header-title {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: white;
   margin: 0 0 8px 0;
@@ -123,6 +123,37 @@
 
 .search-input-header::placeholder {
   color: #95a5a6;
+}
+
+.intro-section {
+  background: #F5EBDD;
+  padding: 32px 40px;
+  text-align: center;
+  border-bottom: 1px solid #E9D5C5;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  color: #2B1C19;
+  margin: 0 0 8px 0;
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.intro-byline {
+  font-size: 0.95rem;
+  color: #8C2B27;
+  margin: 0;
+  font-weight: 500;
+}
+
+.dark .intro-text {
+  color: #e5e5e5;
+}
+
+.dark .intro-byline {
+  color: #ffb3ba;
 }
 
 .filters-container {

@@ -77,10 +77,6 @@ function App() {
         <div className="header-content-wrapper">
           <div className="header-main">
             <h1 className="header-title">Where Pages Burn and Dragons Whisper</h1>
-            <p className="header-subtitle">
-              Stories I read, legends I hear, with rain tapping the window and tea in hand.
-            </p>
-            <p className="header-byline">— Aleksandra</p>
           </div>
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
             <button
@@ -99,6 +95,13 @@ function App() {
           </div>
         </div>
       </header>
+
+      <div className="intro-section">
+        <p className="intro-text">
+          Stories I read, legends I hear, with rain tapping the window and tea in hand.
+        </p>
+        <p className="intro-byline">— Aleksandra</p>
+      </div>
 
       <div className="filters-container">
         <div className="filter-group">
