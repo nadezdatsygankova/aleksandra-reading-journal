@@ -5,14 +5,12 @@ const books = import.meta.glob('../books/*.md', { eager: true })
 
 export function getAllBooks() {
   const entries = Object.entries(books)
-  console.log('Found books:', entries.length, entries.map(([path]) => path))
 
   return entries
     .filter(([path]) => !path.includes('README.md'))
     .map(([path, module]) => {
       const fileName = path.split('/').pop().replace('.md', '')
       const { data, content } = module.default
-      console.log('Loading book:', fileName, data)
 
       // Parse markdown to HTML
       const htmlReview = marked(content.trim())
