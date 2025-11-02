@@ -33,6 +33,10 @@ function BookDetail() {
   };
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
+
+  useEffect(() => {
     trackView();
   }, []);
 
