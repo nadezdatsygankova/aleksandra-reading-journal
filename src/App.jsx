@@ -165,7 +165,7 @@ function App() {
         )}
       </div>
 
-      <BookList books={filteredBooks} searchQuery={searchQuery} allBooks={allBooks} />
+      <BookList books={filteredBooks} searchQuery={searchQuery} />
 
       <footer className="app-footer">
         <div className="footer-content">

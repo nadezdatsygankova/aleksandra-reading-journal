@@ -5,6 +5,7 @@ status: 'read'
 rating: 5
 date: '2024-01-25'
 cover: 'https://covers.openlibrary.org/b/isbn/9780062676375-L.jpg'
+url: 'https://www.amazon.com/Restore-Me-Shatter/dp/0062676377'
 tags:
   - fantasy
   - romance

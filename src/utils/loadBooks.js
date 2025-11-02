@@ -27,6 +27,7 @@ export function getAllBooks() {
         date: data.date,
         cover: data.cover || null,
         tags: data.tags || [],
+        url: data.url || null,
         review: htmlReview,
         createdAt: data.date,
         notes: []

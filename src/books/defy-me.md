@@ -5,6 +5,7 @@ status: 'read'
 rating: 5
 date: '2024-02-01'
 cover: 'https://covers.openlibrary.org/b/isbn/9780062676399-L.jpg'
+url: 'https://www.amazon.com/Defy-Me-Tahereh-Mafi/dp/0062676393'
 tags:
   - fantasy
   - romance
