@@ -165,7 +165,7 @@ function App() {
         )}
       </div>
 
-      <BookList books={filteredBooks} searchQuery={searchQuery} />
+      <BookList books={filteredBooks} searchQuery={searchQuery} onTagClick={setFilterTag} />
 
       <footer className="app-footer">
         <div className="footer-content">

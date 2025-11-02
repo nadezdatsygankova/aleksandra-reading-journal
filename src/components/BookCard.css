@@ -107,11 +107,12 @@
   font-size: 0.85rem;
   font-weight: 500;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .book-tag:hover {
-  background: #dee2e6;
-  color: #2c3e50;
+  background: #8c2b27;
+  color: white;
 }
 
 .book-review-preview {

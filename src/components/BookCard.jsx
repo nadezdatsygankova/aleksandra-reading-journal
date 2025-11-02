@@ -1,8 +1,15 @@
 import { useNavigate } from 'react-router-dom';
 import './BookCard.css';
 
-function BookCard({ book }) {
+function BookCard({ book, onTagClick }) {
   const navigate = useNavigate();
+
+  const handleTagClick = (e, tag) => {
+    e.stopPropagation();
+    if (onTagClick) {
+      onTagClick(tag);
+    }
+  };
 
   const renderStars = (rating) => {
     if (!rating) return null;
@@ -75,7 +82,7 @@ function BookCard({ book }) {
         {book.tags && book.tags.length > 0 && (
           <div className="book-tags">
             {book.tags.map((tag, idx) => (
-              <span key={idx} className="book-tag">
+              <span key={idx} className="book-tag" onClick={(e) => handleTagClick(e, tag)}>
                 #{tag}
               </span>
             ))}

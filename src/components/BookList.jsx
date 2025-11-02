@@ -1,7 +1,7 @@
 import BookCard from './BookCard'
 import './BookList.css'
 
-function BookList({ books, searchQuery }) {
+function BookList({ books, searchQuery, onTagClick }) {
   const getBooksByStatus = (status) => {
     return books.filter(book => book.status === status)
   }
@@ -27,7 +27,7 @@ function BookList({ books, searchQuery }) {
           </h2>
           <div className="books-grid">
             {readingBooks.map(book => (
-              <BookCard key={book.id} book={book} />
+              <BookCard key={book.id} book={book} onTagClick={onTagClick} />
             ))}
           </div>
         </section>
@@ -40,7 +40,7 @@ function BookList({ books, searchQuery }) {
           </h2>
           <div className="books-grid">
             {readBooks.map(book => (
-              <BookCard key={book.id} book={book} />
+              <BookCard key={book.id} book={book} onTagClick={onTagClick} />
             ))}
           </div>
         </section>
@@ -53,7 +53,7 @@ function BookList({ books, searchQuery }) {
           </h2>
           <div className="books-grid">
             {wantToReadBooks.map(book => (
-              <BookCard key={book.id} book={book} />
+              <BookCard key={book.id} book={book} onTagClick={onTagClick} />
             ))}
           </div>
         </section>
