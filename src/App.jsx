@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import BookList from './components/BookList';
 import { getAllBooks } from './utils/loadBooks';
 import './App.css';
@@ -6,6 +7,7 @@ import './dark-mode.css';
 
 function App() {
   const allBooks = getAllBooks();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
   const [sortBy, setSortBy] = useState('date');
   const [filterStatus, setFilterStatus] = useState('all');
@@ -15,6 +17,13 @@ function App() {
     const saved = localStorage.getItem('darkMode');
     return saved ? JSON.parse(saved) : false;
   });
+
+  useEffect(() => {
+    const tagParam = searchParams.get('tag');
+    if (tagParam) {
+      setFilterTag(tagParam);
+    }
+  }, [searchParams]);
 
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));

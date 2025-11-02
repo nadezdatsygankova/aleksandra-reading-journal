@@ -108,6 +108,8 @@
   font-weight: 500;
   transition: all 0.3s ease;
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 
 .book-tag:hover {

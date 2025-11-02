@@ -149,9 +149,9 @@ function BookDetail() {
             {book.tags && book.tags.length > 0 && (
               <div className="book-tags-detail">
                 {book.tags.map((tag, idx) => (
-                  <span key={idx} className="book-tag-detail">
+                  <Link key={idx} to={`/?tag=${encodeURIComponent(tag)}`} className="book-tag-detail">
                     #{tag}
-                  </span>
+                  </Link>
                 ))}
               </div>
             )}
