@@ -5,7 +5,7 @@ status: 'read'
 rating: 5
 date: '2024-01-20'
 cover: 'https://m.media-amazon.com/images/I/61QIExCWnTL._SY522_.jpg'
-url: 'https://www.amazon.ca/Ignite-Me-Tahereh-Mafi/dp/0062085614'
+url: 'https://a.co/d/eowNV7N'
 tags:
   - fantasy
   - romance
