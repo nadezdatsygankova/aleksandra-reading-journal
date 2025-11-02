@@ -1,13 +1,13 @@
-# 📚 Nadia's Reading Journal
+# 📚 Aleksandra's Reading Journal
 
-**Eyes on Pages, Ears on Stories** — Books I've read, audiobooks I've heard, and moments in between.
+**Where Pages Burn and Dragons Whisper** — Stories I read, legends I hear, with rain tapping the window and tea in hand.
 
 A beautiful, modern reading journal built with React that lets you track your books with markdown files - just like a blog!
 
 ## Features
 
 - 📖 **Markdown-Based**: Write your book reviews in markdown files
-- 🖼️ **Cover Images**: Automatic covers from Open Library API
+- 🖼️ **Cover Images**: Beautiful covers from various sources
 - 🔍 **Search & Filter**: Search by title, author, or tags. Filter by status and rating
 - 🏷️ **Tags**: Organize books with hashtags
 - 🌙 **Dark Mode**: Toggle dark/light theme
@@ -77,7 +77,7 @@ npm install
 npm run dev
 ```
 
-4. Open `http://localhost:5173` in your browser
+4. Open `http://localhost:3000` in your browser
 
 ## Adding Books
 
@@ -139,12 +139,12 @@ The built files will be in the `dist` directory. Deploy to:
 - **Vite**: Lightning-fast build tool
 - **Marked**: Markdown parsing
 - **Gray-Matter**: Front matter parsing
-- **CSS3**: Modern, clean design
+- **CSS3**: Modern, clean design with a beautiful pink theme
 
 ## Project Structure
 
 ```
-book-tracker/
+aleksandra-reading-journal/
 ├── src/
 │   ├── books/              # Your markdown book files go here!
 │   ├── components/
