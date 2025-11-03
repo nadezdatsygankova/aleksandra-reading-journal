@@ -1,6 +1,8 @@
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { getAllBooks } from '../utils/loadBooks';
+import logo from '../logo.jpg';
+import '../App.css';
 import './BookDetail.css';
 
 function BookDetail() {
@@ -96,9 +98,14 @@ function BookDetail() {
     <div className="app">
       <header className="app-header">
         <div className="header-content-wrapper">
-          <Link to="/" className="back-link">
-            ← Back to Home
-          </Link>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <Link to="/">
+              <img src={logo} alt="Logo" style={{ height: '50px', width: 'auto' }} />
+            </Link>
+            <Link to="/" className="back-link">
+              ← Back to Home
+            </Link>
+          </div>
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
             <button
               className="dark-mode-toggle"
@@ -183,6 +190,40 @@ function BookDetail() {
           </div>
         </div>
       </div>
+
+      <footer className="app-footer">
+        <div className="footer-content">
+          <div className="footer-top">
+            <img src={logo} alt="Logo" style={{ height: '40px', width: 'auto', marginBottom: '12px' }} />
+            <h3>Aleksandra's Reading Journal</h3>
+            <div className="footer-links">
+              <a
+                href="https://blog-tsy-nadia.netlify.app/en"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link">
+                <i className="fas fa-earth-americas"></i> Travel Blog
+              </a>
+              <a
+                href="https://www.instagram.com/aleksatoronto"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-link">
+                <i className="fab fa-instagram"></i> Instagram
+              </a>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <p>
+              Made by{' '}
+              <a href="https://www.nadiatsy.com/" target="_blank" rel="noopener noreferrer">
+                NadiaTsy
+              </a>
+            </p>
+            <p>© 2025 Aleksandra's Reading Journal. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

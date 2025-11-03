@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom';
 import BookList from './components/BookList';
 import { getAllBooks } from './utils/loadBooks';
+import logo from './logo.jpg';
 import './App.css';
 import './dark-mode.css';
 
@@ -84,7 +85,10 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content-wrapper">
-          <div className="header-main">
+          <div className="header-main" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <Link to="/">
+              <img src={logo} alt="Logo" style={{ height: '50px', width: 'auto' }} />
+            </Link>
             <h1 className="header-title">Where Pages Burn and Dragons Whisper</h1>
           </div>
           <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
@@ -179,6 +183,7 @@ function App() {
       <footer className="app-footer">
         <div className="footer-content">
           <div className="footer-top">
+            <img src={logo} alt="Logo" style={{ height: '40px', width: 'auto', marginBottom: '12px' }} />
             <h3>Aleksandra's Reading Journal</h3>
             <div className="footer-links">
               <a
