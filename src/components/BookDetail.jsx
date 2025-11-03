@@ -145,14 +145,6 @@ function BookDetail() {
               </time>
             )}
 
-            {book.url && (
-              <div className="book-url-section">
-                <a href={book.url} target="_blank" rel="noopener noreferrer" className="goodreads-link">
-                  <i className="fas fa-shopping-cart"></i> View on Amazon
-                </a>
-              </div>
-            )}
-
             {book.tags && book.tags.length > 0 && (
               <div className="book-tags-detail">
                 {book.tags.map((tag, idx) => (
@@ -166,6 +158,14 @@ function BookDetail() {
             {book.review && (
               <div className="book-review-detail">
                 <div dangerouslySetInnerHTML={{ __html: book.review }} />
+              </div>
+            )}
+
+            {book.url && (
+              <div className="book-url-section">
+                <a href={book.url} target="_blank" rel="noopener noreferrer" className="goodreads-link">
+                  <i className="fas fa-shopping-cart"></i> View on Amazon
+                </a>
               </div>
             )}
 
