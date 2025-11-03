@@ -194,8 +194,10 @@ function BookDetail() {
       <footer className="app-footer">
         <div className="footer-content">
           <div className="footer-top">
-            <img src={logo} alt="Logo" style={{ height: '40px', width: 'auto', marginBottom: '12px' }} />
-            <h3>Aleksandra's Reading Journal</h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+              <img src={logo} alt="Logo" style={{ height: '50px', width: 'auto' }} />
+              <h3>Aleksandra's Reading Journal</h3>
+            </div>
             <div className="footer-links">
               <a
                 href="https://blog-tsy-nadia.netlify.app/en"
