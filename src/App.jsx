@@ -184,7 +184,9 @@ function App() {
         <div className="footer-content">
           <div className="footer-top">
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-              <img src={logo} alt="Logo" style={{ height: '50px', width: 'auto' }} />
+              <Link to="/">
+                <img src={logo} alt="Logo" style={{ height: '50px', width: 'auto' }} />
+              </Link>
               <h3>Aleksandra's Reading Journal</h3>
             </div>
             <div className="footer-links">
